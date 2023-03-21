@@ -26,7 +26,7 @@ function ContactUs() {
   <div className="flex space-x-4">
     <div className="rounded-full bg-slate-200 h-10 w-10"></div>
     <div className="  ">
-      <div className="">Mayur R Shegokar</div>
+      <div className="">Mayur R Shengokar</div>
       <div className="">
         <div className="">
         <div className="mt-2 flex cursor-pointer"  onClick={() => window.open("https://wa.me/9850362912", "_blank")}> Mo. 9850362912 <IoLogoWhatsapp className="text-green-500 ml-1 mt-[3px]"/></div>
