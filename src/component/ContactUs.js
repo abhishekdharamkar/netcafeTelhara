@@ -1,12 +1,16 @@
 
 import {IoLogoWhatsapp} from "react-icons/io"
+import profile from "../assets/profile.jpeg"
+import {BsFillArrowDownCircleFill} from "react-icons/bs"
 function ContactUs() {
     
     return(
-    <div className="flex flex-col md:flex-row md:justify-evenly mx-8 gap-10 md:gap-0 mt-32">
+      <>
+     
+      <img src={profile} className="h-60 w-72 mt-20 mx-auto  object-cover" alt="not available " />
+    <div className=" mt-3 mb-44 flex flex-col md:flex-row md:justify-evenly mx-8 gap-10 md:gap-0 ">
     <div className="border border-blue-300 shadow rounded-md p-4 max-w-sm w-full ">
    <div className="flex space-x-4">
-    <div className="rounded-full bg-slate-200 h-10 w-10"></div>
     <div className="  ">
       <div className="">Vaibhav K Dharamkar</div>
       <div className="">
@@ -24,7 +28,6 @@ function ContactUs() {
 
 <div className="border border-blue-300 shadow rounded-md p-4 max-w-sm w-full ">
   <div className="flex space-x-4">
-    <div className="rounded-full bg-slate-200 h-10 w-10"></div>
     <div className="  ">
       <div className="">Mayur R Shengokar</div>
       <div className="">
@@ -38,6 +41,7 @@ function ContactUs() {
   
 </div>
     </div>
+    </>
     )
 }
 export default ContactUs;

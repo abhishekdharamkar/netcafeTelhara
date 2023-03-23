@@ -19,7 +19,7 @@ function Navbar() {
             <span
               className="text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase text-white"
             >
-              SHRI GAJANAN NET CAFE
+              SHRI GAJANAN NET CAFE, TELHARA
             </span>
             </Link> 
             <button
