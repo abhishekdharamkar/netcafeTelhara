@@ -7,6 +7,7 @@ import {TiContacts} from 'react-icons/ti'
 import { Link, Navigate } from "react-router-dom";
 
 
+// https://goo.gl/maps/muA5LC6MzY6gYpoW8
 function Navbar() {
     const [navbarOpen, setNavbarOpen] = useState(false);
 
@@ -41,7 +42,7 @@ function Navbar() {
               <li className="nav-item">
               <Link to="/">
                 <span
-                  className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
+                  className="px-3 py-2 flex items-center text-sm uppercase font-bold leading-snug text-white hover:opacity-75"
                   href="#pablo"
                 >
                 <span className="ml-2">Home</span>
@@ -50,7 +51,7 @@ function Navbar() {
               </li>
               <li className="nav-item">
                 <span
-                  className=" cursor-pointer px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
+                  className=" cursor-pointer px-3 py-2 flex items-center text-sm uppercase font-bold leading-snug text-white hover:opacity-75"
                   onClick={() => window.open("https://www.employment-news.net/2015/07/maharashtra-govt-jobs.html", "_blank")}
 
                 >
@@ -60,7 +61,7 @@ function Navbar() {
               <li className="nav-item">
               <Link to="/contact">
               <span
-                  className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
+                  className="px-3 py-2 flex items-center text-sm uppercase font-bold leading-snug text-white hover:opacity-75"
                  
                 >
                   <TiContacts className="fab fa-pinterest text-lg leading-lg text-white opacity-75"/><span className="ml-2">Contact Us</span>
