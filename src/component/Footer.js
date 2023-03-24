@@ -1,7 +1,7 @@
 function Footer(params) {
     
     return (
-        <div div className="fixed backdrop-blur-sm w-full bottom-0">
+        <div div className="relative backdrop-blur-sm w-full bottom-0">
        
         <hr/>
         <span className="justify-center flex">Developers Contact</span>
@@ -38,7 +38,7 @@ function Footer(params) {
             </svg>
         </a>
     </div>
-    <p className="mt-3  text-base leading-6 text-center text-gray-400">
+    <p className="mt-3 mb-3 text-base leading-6 text-center text-gray-400">
         © 2023 ABHISHEK DHARAMKAR.All rights reserved.
     </p>
 </div>

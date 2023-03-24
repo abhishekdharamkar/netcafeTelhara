@@ -32,14 +32,11 @@ export default function PopUp( props) {
               <p className='leading-7' >
                 {props.message}
               </p>
-              <p>
-               
-              </p>
            
             <MDBModalFooter>
-              <MDBBtn color='secondary' onClick={() => setScrollableModal(!setScrollableModal)}>
+              <button className='text-md border-green-700 hover:bor border-2 p-1' onClick={() => setScrollableModal(!setScrollableModal)}>
                 Close
-              </MDBBtn>
+              </button>
             </MDBModalFooter>
           </MDBModalContent>
         </MDBModalDialog>
